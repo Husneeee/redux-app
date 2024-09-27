@@ -10,7 +10,7 @@ export const Counter = () => {
 
 	return (
 		<ButtonGroup aria-label="Basic example" className="m-4" size="lg">
-			<Button variant="secondary" onClick={() => dispatch(down())}>
+			<Button variant="success" onClick={() => dispatch(down())}>
 				<TfiMinus />
 			</Button>
 			<Button variant="secondary" disabled>
